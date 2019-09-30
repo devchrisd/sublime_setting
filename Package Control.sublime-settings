@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Babel",
+		"Console Wrap",
+		"DocBlockr",
+		"Emmet",
+		"Function Name Display",
+		"Git",
+		"GitGutter",
+		"Http Requester",
+		"Package Control",
+		"PhpNamespace",
+		"Python 3",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SublimeTmpl"
+	]
+}

@@ -6,6 +6,10 @@
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"index_exclude_patterns": ["*.log", "node_modules/*", "vendor/*"],
+	// "index_files": false
 }
