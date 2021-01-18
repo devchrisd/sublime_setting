@@ -1,7 +1,8 @@
 # sublime_setting
 
 Packages installed:
-    Package control
+
+    Package control    
     Alignment
     AllAutocomplete
     Docblockr
@@ -17,6 +18,7 @@ Packages installed:
     SublimeTmpl
 
 Short Cut:
+
     super + P
         : open file
 
@@ -29,7 +31,6 @@ Short Cut:
 
     super + Shift + T
         : Open the Tab just closed
-
 
     super + D
         : select next same word in file (multi-select)
@@ -45,12 +46,22 @@ Short Cut:
     super + shift + F
         : find in folder [and replace]
 
-    ^ + Shift + Up/Down
-        : multiline cursor, edit at the same time
-
     super + J
         : join next line to current
 
+    super + Left/Right
+        : move to start/end of line
+
+    super + Alt + [Shift] + 1/2/3/4/5
+        : layout change
+
+    super + [/]
+    super + Alt + [/]
+        : comment
+
+
+    ^ + Shift + Up/Down
+        : multiline cursor, edit at the same time
 
     ^ + G
         : go to line
@@ -58,21 +69,8 @@ Short Cut:
     ^ + M
         : go to matching bracket
 
-    super + Left/Right
-        : move to start/end of line
     Alt + Left/Right
         : move to next word
-
-
-    super + Alt + [Shift] + 1/2/3/4/5
-        : layout change
-
-    super + [/]
-        : indent
-
-    super + Alt + [/]
-        : fold code block
-
 
     ^ + Shift + M
         : select in brackets
