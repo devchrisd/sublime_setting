@@ -2,20 +2,24 @@
 
 Packages installed:
 
-    Package control    
-    Alignment
-    AllAutocomplete
-    Docblockr
-    Emmet
-    Function Name Display
-    Git
-    Gitgutter
-    Http Request
-    SCSS
-    sideBarEnhancements
-    sublimeGit
-    SublimeREPL
-    SublimeTmpl
+		"All Autocomplete",
+		"Babel",
+		"Console Wrap",
+		"DocBlockr",
+		"Emmet",
+		"Function Name Display",
+		"Git",
+		"GitGutter",
+		"Http Requester",
+		"Package Control",
+		"PhpNamespace",
+		"Python 3",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-phplint",
+		"SublimeREPL",
+		"SublimeTmpl",
 
 Short Cut:
 
@@ -59,6 +63,9 @@ Short Cut:
     super + Alt + [/]
         : comment
 
+    super + ^ + Up/Down
+        : swap line with the line above/below
+    
 
     ^ + Shift + Up/Down
         : multiline cursor, edit at the same time
@@ -74,3 +81,16 @@ Short Cut:
 
     ^ + Shift + M
         : select in brackets
+
+User defined keymap:
+[
+    { "keys": ["super+alt+down"], "command": "goto_definition" },
+
+    { "keys": ["super+ctrl+a"], "command": "alignment" },
+
+    { "keys": ["alt+t"], "command": "run_phpunit_test"},
+    { "keys": ["super+alt+t"], "command": "run_single_phpunit_test"},
+    { "keys": ["super+alt+l+t"], "command": "run_last_phpunit_test"},
+    // { "keys": ["super+shift+t"], "command": "run_phpunit_tests_in_dir"},
+    { "keys": ["super+shift+ctrl+t"], "command": "run_all_phpunit_tests"},
+]
